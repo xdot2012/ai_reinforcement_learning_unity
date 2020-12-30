@@ -179,11 +179,12 @@ public class Agent : Subject, IObserver
         if (this.notified) symbol = this.symbolToRepeat;
         else {
             symbol = this.RivalToSymbol(alertCause);
+            this.alertCause = alertCause;
             //Debug.Log($"Context: {this.type} -{this.id}: Translated Rival to Symbol: {symbol}.");
             symbolToRepeat = symbol;
             this.notified = true;
+            this.UpdateSymbol(symbol, alertCause);
         }
-        this.UpdateSymbol(symbol, alertCause);
         this.Notify(symbol);
     }
     public void Update(int symbol) {
