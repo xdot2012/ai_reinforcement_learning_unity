@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2852021327701237913}
   - component: {fileID: 5261420364114733057}
-  - component: {fileID: 7913476866518587587}
   m_Layer: 0
   m_Name: tallTreePrefab
   m_TagString: Untagged
@@ -82,21 +81,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7913476866518587587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6097200153193669780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 239f891e453aa1541b99a42115945b9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zone:
-    id: 0
-    position: {x: 0, y: 0}
-    type: 
-    full: 0
-    gameObject: {fileID: 0}

@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public TextMeshPro textMesh;
 
     void Start() {
-        this.context = new Context(10, 10, 1, 25, 1, 1);
+        this.context = new Context(10, 10, 1, 50, 1, 1);
         textMesh = gameObject.AddComponent<TextMeshPro>();
         textMesh.fontSize = 3;
         textMesh.rectTransform.position = new Vector3(2.25f, 10.5f, 10f);
@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void SpeedUP() {
-        if(this.speed < 5)
+        if(this.speed < 10)
             this.speed = this.speed*2;
     }
 
@@ -41,4 +41,8 @@ public class GameManager : MonoBehaviour
     }
 
     public float GetSpeed() => this.speed;
+    public void SetSpeed(float speed)
+    {
+        this.speed = speed;
+    }
 }

@@ -22,7 +22,9 @@ public abstract class State {
 }
 
 public class Idle : State {
-    public override void ChangeColor() { this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.green; }
+    public override void ChangeColor() {
+        //this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.green;
+    }
     public override bool CanbeTargeted(string rivalType) => true;
     public override bool CanbeNotified() => true;
     public override bool isFinal() => false;
@@ -35,7 +37,9 @@ public class Idle : State {
 }
 
 public class Alert : State {
-    public override void ChangeColor() { this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.yellow; }
+    public override void ChangeColor() {
+        //this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.yellow;
+    }
     public override bool CanbeTargeted(string rivalType) => true;
     public override bool CanbeNotified() => false;
     public override bool isFinal() => false;
@@ -62,7 +66,9 @@ public class Alert : State {
 
 public class OnTree : State
 {
-    public override void ChangeColor() { this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.blue; }
+    public override void ChangeColor() {
+        //this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
+    }
     public override bool CanbeTargeted(string rivalType) {
         if (rivalType == "SNAKE") return false;
         else return true;
@@ -74,7 +80,9 @@ public class OnTree : State
 
 public class OnTallTree : State
 {
-    public override void ChangeColor() { this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.blue; }
+    public override void ChangeColor() {
+        //this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
+    }
     public override bool CanbeTargeted(string rivalType){
         if (rivalType == "LEOPARD") return false;
         else return true;
@@ -86,7 +94,9 @@ public class OnTallTree : State
 
 public class OnBush : State
 {
-    public override void ChangeColor() { this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.blue; }
+    public override void ChangeColor() {
+        //this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
+    }
     public override bool CanbeTargeted(string rivalType){
         if (rivalType == "HAWK") return false;
         else return true;
@@ -97,7 +107,9 @@ public class OnBush : State
 }
 
 public class Dead : State {
-    public override void ChangeColor() { this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.gray; }
+    public override void ChangeColor() {
+        //this.agent.gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
+    }
     public override bool CanbeTargeted(string rivalType) => false;
     public override bool CanbeNotified() => false;
     public override bool isFinal() => true;

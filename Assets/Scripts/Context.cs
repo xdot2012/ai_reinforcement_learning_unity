@@ -213,12 +213,12 @@ public class Context
                 //Instantiate Nodes
                 grid[x, y] = new Node(x, y);
 
-                Debug.DrawLine(GetWorldPosition(x, y), GetWorldPosition(x, y + 1), Color.gray, 100f);
-                Debug.DrawLine(GetWorldPosition(x + 1, y), GetWorldPosition(x, y), Color.gray, 100f);
+                //Debug.DrawLine(GetWorldPosition(x, y), GetWorldPosition(x, y + 1), Color.gray, 100f);
+                //Debug.DrawLine(GetWorldPosition(x + 1, y), GetWorldPosition(x, y), Color.gray, 100f);
             }
         }
-        Debug.DrawLine(GetWorldPosition(0, ySize), GetWorldPosition(xSize, ySize), Color.gray, 100f);
-        Debug.DrawLine(GetWorldPosition(xSize, 0), GetWorldPosition(xSize, ySize), Color.gray, 100f);
+        //Debug.DrawLine(GetWorldPosition(0, ySize), GetWorldPosition(xSize, ySize), Color.gray, 100f);
+        //Debug.DrawLine(GetWorldPosition(xSize, 0), GetWorldPosition(xSize, ySize), Color.gray, 100f);
 
         GameObject camera = GameObject.Find("Main Camera");
         Vector2 position = GetWorldPosition((int)xSize / 2, (int)ySize / 2);

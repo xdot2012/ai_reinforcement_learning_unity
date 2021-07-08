@@ -9,6 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 487105529206130126, guid: 443132c1dcd948846a5d860fe7b5beb3,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 487105529206130126, guid: 443132c1dcd948846a5d860fe7b5beb3,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -24,6 +29,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 487105529206130126, guid: 443132c1dcd948846a5d860fe7b5beb3,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 487105529206130126, guid: 443132c1dcd948846a5d860fe7b5beb3,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -35,16 +45,6 @@ PrefabInstance:
     - target: {fileID: 487105529206130126, guid: 443132c1dcd948846a5d860fe7b5beb3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 487105529206130126, guid: 443132c1dcd948846a5d860fe7b5beb3,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 487105529206130126, guid: 443132c1dcd948846a5d860fe7b5beb3,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 487105529206130126, guid: 443132c1dcd948846a5d860fe7b5beb3,
@@ -66,6 +66,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: hawkRivalPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659643902515303937, guid: 443132c1dcd948846a5d860fe7b5beb3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8242600616816941153, guid: 443132c1dcd948846a5d860fe7b5beb3,
         type: 3}

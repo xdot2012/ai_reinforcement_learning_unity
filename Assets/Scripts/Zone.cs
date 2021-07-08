@@ -19,7 +19,6 @@ public class Zone {
         if (type == "TREE") this.gameObject = GameObject.Instantiate(Storage.GetTreePrefab(), GetWorldPosition(position), Quaternion.identity);
         else if (type == "BUSH") this.gameObject = GameObject.Instantiate(Storage.GetBushPrefab(), GetWorldPosition(position), Quaternion.identity);
         else this.gameObject = GameObject.Instantiate(Storage.GetTallTreePrefab(), GetWorldPosition(position), Quaternion.identity);
-        this.gameObject.GetComponent<ZoneController>().zone=this;
     }
     public void RedoSetup() {
         this.agents = new HashSet<Agent>();

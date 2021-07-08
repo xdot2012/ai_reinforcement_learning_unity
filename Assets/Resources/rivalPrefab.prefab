@@ -115,6 +115,7 @@ MonoBehaviour:
       type: 
       gameObject: {fileID: 0}
       full: 0
+  active: 0
 --- !u!95 &-1816650568840399285
 Animator:
   serializedVersion: 3
@@ -150,7 +151,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6530637922550284376
 Transform:
   m_ObjectHideFlags: 0

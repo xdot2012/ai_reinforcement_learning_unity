@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5491351273727597018
 Transform:
   m_ObjectHideFlags: 0
@@ -177,12 +177,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent:
+    alertCause: 
     gameObject: {fileID: 0}
     id: 0
     position: {x: 0, y: 0}
     visionRange: 0
     hearRange: 0
     alertRange: 0
+    symbolToRepeat: 0
+    notified: 0
     type: 
     rival: 0
     lastPosition: {x: 0, y: 0}
@@ -192,3 +195,4 @@ MonoBehaviour:
       type: 
       gameObject: {fileID: 0}
       full: 0
+  active: 0
