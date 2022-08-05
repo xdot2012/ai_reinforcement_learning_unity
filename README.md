@@ -1,5 +1,5 @@
 # VervetMonkeys
-An Artificial Life study that simulate the emergence of symbolic communication among artificial creatures.
+An Artificial Inteligence Expirement using Reinforcement Learning.
 
 This is an implementation in Unity of the experiment proposed in:
 "Comunicação Simbólica entre Criaturas Artificiais: um experimento em Vida Artificial", by "Angelo Conrado Loula", January 2004.
